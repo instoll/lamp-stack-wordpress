@@ -2,6 +2,10 @@
 
 ## Next
 
+## 0.3.0
+
+- Feature: Inject system env vars into php
+
 ## 0.2.0
 
 - Cleanup: Ditched vhost
