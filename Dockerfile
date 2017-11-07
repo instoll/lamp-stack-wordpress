@@ -1,11 +1,10 @@
 FROM instoll/lamp-stack:0.5.0
 
-ENV APPROOT /wordpress
+ENV APPROOT /var/www/html
 
 # Overwrite default configs.
-COPY httpd/httpd.conf  /etc/httpd/conf
-COPY httpd/vhosts.conf /etc/httpd/conf.d
-COPY php/php.ini       /etc
+COPY httpd/httpd.conf /etc/httpd/conf
+COPY php/php.ini      /etc
 
 RUN echo "Install Composer global dependencies" && \
       composer global require hirak/prestissimo && \
