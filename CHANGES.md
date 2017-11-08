@@ -2,6 +2,8 @@
 
 ## Next
 
+## 0.4.0
+
 - Bugfix: Wrong path specified for PHP ini
 
 ## 0.3.0
