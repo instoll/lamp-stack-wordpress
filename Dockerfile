@@ -4,7 +4,7 @@ ENV APPROOT /var/www/html
 
 # Overwrite default configs.
 COPY httpd/httpd.conf /etc/httpd/conf
-COPY php/php.ini      /etc
+COPY php/php-7.1.ini  /etc
 
 RUN echo "Install Composer global dependencies" && \
       composer global require hirak/prestissimo && \

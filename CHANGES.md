@@ -2,6 +2,8 @@
 
 ## Next
 
+- Bugfix: Wrong path specified for PHP ini
+
 ## 0.3.0
 
 - Feature: Inject system env vars into php
